@@ -5,3 +5,4 @@
 3. Diagonal Difference
 4. Plus Minus
 5. Staircase
+6. Mini-Max Sum
