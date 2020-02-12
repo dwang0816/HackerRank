@@ -1,7 +1,8 @@
 function birthdayCakeCandles(ar) {
     let counter = 0
+    let max = Math.max(...ar)
     for(let i = 0;i<ar.length;i++){
-        if(ar[i] === Math.max(...ar)){
+        if(ar[i] === max){
             counter++
         }
     }
