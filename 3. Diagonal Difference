@@ -1,0 +1,12 @@
+function diagonalDifference(arr) {
+    let leftToRight = 0
+    let rightToLeft = 0
+    let sum = 0
+    const dim = arr[0].length
+
+    for(let i = 0, j = (dim-1);i<dim, j>-1;i++, j--){
+        leftToRight += arr[i][i]
+        rightToLeft += arr[i][j]
+    }
+    return Math.abs(leftToRight - rightToLeft)
+}
