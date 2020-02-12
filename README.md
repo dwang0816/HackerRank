@@ -6,3 +6,4 @@
 4. Plus Minus
 5. Staircase
 6. Mini-Max Sum
+7. Birthday Cake Candles
