@@ -7,3 +7,4 @@
 5. Staircase
 6. Mini-Max Sum
 7. Birthday Cake Candles
+8. New Year Chaos (Medium)
