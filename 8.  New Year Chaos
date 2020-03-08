@@ -1,6 +1,14 @@
 // Complete the minimumBribes function below.
 // q = 1 2 **5 -3 **7 **8  -6 ----4
 //     1 2   3  4   5   6   7     8
+// 5 bribes 3 & 4
+// 7 bribes 4 & 6
+// 8 bribes 4 & 6
+
+//Reduce the inner loops iteration count.
+The problem is the inner loop is looping over too many items. The result is that you spend too much time processing data you know is irrelevant.
+
+As the function should exit if it detects a position has made over 2 bribes, you need only have the inner loop check positions down 2 from the item you are checking, and not from the start of the line.
 --------
 // i = 0
 // 1, 2, 5, 3, 7, 8, 6, 4
